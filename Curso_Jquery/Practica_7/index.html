@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <label>si</label>
+    <input type="radio"  name="radio" id="miradiosi" ><br><br>
+    <label>no</label>
+    <input type="radio"  name="radio" id="miradiono" ><br><br>
+
+</body>
+<script src="../jquery-3.6.0.min.js"></script>
+</html>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+
+      
+     $('#miradiosi').click(function(){
+       alert("Es positivo o tiene un valor tal");
+     });
+     $('#miradiono').click(function(){
+        alert("Es negativo o tiene un valor tal");
+     });
+       });
+</script>
